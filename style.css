@@ -1,0 +1,44 @@
+body {
+    font-family:var(--font-par);
+    font-size: 0.9375em;
+    font-weight: 400;
+    background-color: var(--primary-bgmain);
+    color:var(--neutral-par);
+}
+
+:root {
+    --font-header:'Inter';
+    --font-par: 'Lexend', 'sans serif';
+    --primary-bgmain: hsl(233, 47%, 7%);
+    --primary-bgcard: hsl(244, 38%, 16%);
+    --primary-bgaccent:hsl(277, 64%, 61%);
+    --neutral-head: hsl(0, 0%, 100%);
+    --neutral-par: hsla(0, 0%, 100%, 0.75);
+    --neutral-subhead:hsla(0, 0%, 100%, 0.6);
+}
+
+.card {
+    background-color: var(--primary-bgcard);
+    display: flex;
+    flex-direction: row;
+}
+.cardHeader {
+    font-family: var(--font-header);
+    font-weight: 700;
+    color: var(--neutral-head);
+}
+
+.subHeader {
+    font-family: var(--font-header);
+    font-weight: 700;
+    color: var(--neutral-subhead);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
